@@ -60,6 +60,10 @@
     flex-direction: column;
     gap: 60px;
   }
+  .online-description {
+    padding: 5px;
+
+  }
 
   .play-games {
     max-width: 90%;
