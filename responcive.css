@@ -17,6 +17,9 @@
     max-width: 100%;
     flex-direction: column-reverse;
   }
+  .banner-description{
+    padding-left: 10px;
+  }
 
   .banner-right img {
     max-width: 100%;
@@ -62,25 +65,28 @@
     max-width: 90%;
     padding: 10px;
     flex-direction: column-reverse;
+    gap: 80px;
+  }
+  .play-games-right img{
+    width: 350px;
+
   }
   .play-game-left{
     width: 150px;
     padding: 10px;
-
-
   }
+
+  
   .play-game-titel{
     width: 300px;
   }
   .play-games-description{
-  text-align: center;
+ 
   width: 300px;
   }
 
   .small-img{
-    position: relative;
-    left: 400px;
-    bottom: 250px;
+   display: none;
 }
 
   .small-img {
@@ -112,8 +118,147 @@
   }
   .footer-logos{
     margin-bottom: 2px;
-    width: 40.13px;
+  
     height: 35px;
   }
+  .footer-tearms-conditions{
+    gap:0px;
+  }
+}
 
+/* FOR IPAD */
+@media screen and (min-width:577px) and (max-width:1200px) {
+  
+
+  .pink-btn,.blue-btn{
+    padding: 12px 15px;
+  }
+  nav {
+    flex-direction: column;
+    padding: 20px 40px;
+    gap: 40px;
+  }
+  .about-section ul{
+    gap: 150px;
+
+  }
+
+  .banner {
+    max-width: 100%;
+  }
+
+  .banner-container {
+    padding: 10px;
+    max-width: 100%;
+    flex-direction: column;
+    gap: 70px;
+  }
+  .banner-description{
+    padding-left: 10px;
+  }
+
+  .banner-right img {
+    max-width: 100%;
+  }
+
+  .gamer-section {
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+
+  .gamer-left img {
+    width: 100%;
+
+  }
+
+  .gamer-right {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .gamer-titel {
+    text-align: center;
+  }
+
+  .gamer-quote {
+
+    text-align: center;
+  }
+
+  .gammer-description {
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .online-img-container {
+    max-width: 100%;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .play-games {
+    max-width: 90%;
+    padding: 10px;
+    flex-direction: column-reverse;
+    gap: 80px;
+  }
+  .play-games-right img{
+    width: 350px;
+
+  }
+  .play-game-left{
+    width: 150px;
+    padding: 10px;
+  }
+
+  
+  .play-game-titel{
+    width: 300px;
+  }
+  .play-games-description{
+ 
+  width: 300px;
+  }
+
+  .small-img{
+   display: none;
+}
+
+  .small-img {
+    max-width: 100%;
+    position: none;
+  }
+  .logo-container{
+    max-width: 300px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo-img{
+    width: 170px;
+    height: 70px;
+    
+  }
+  footer{
+    padding: 20px 0px;
+  }
+  .footer-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 17px;
+    flex-direction: column;
+  }
+  .footer-logos{
+    margin-bottom: 2px;
+  
+    height: 35px;
+  }
+  .footer-tearms-conditions{
+    gap:0px;
+  }
+  
 }
